@@ -1,0 +1,1606 @@
+Ignore invaild Document. ID: 7508. No tokens.
+Parameters:
+  # of Clusters: 20
+  # of Tails: 1/20
+  Random Seed: 1
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Processing raw data...
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8226.412212. Time Taken: 0.251164s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7540.755727. Time Taken: 0.258592s
+  Iteration: 3. Updated Centroids: 17. Obj. Value: 7494.548719. Time Taken: 0.250901s
+  Iteration: 4. Updated Centroids: 16. Obj. Value: 7454.426259. Time Taken: 0.261676s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7436.243404. Time Taken: 0.243256s
+  Iteration: 6. Updated Centroids: 10. Obj. Value: 7431.609608. Time Taken: 0.226706s
+  Iteration: 7. Updated Centroids: 9. Obj. Value: 7429.387473. Time Taken: 0.239227s
+  Iteration: 8. Updated Centroids: 6. Obj. Value: 7427.699474. Time Taken: 0.224889s
+  Iteration: 9. Updated Centroids: 6. Obj. Value: 7425.871922. Time Taken: 0.217792s
+  Iteration: 10. Updated Centroids: 6. Obj. Value: 7424.507644. Time Taken: 0.234489s
+  Iteration: 11. Updated Centroids: 4. Obj. Value: 7423.452768. Time Taken: 0.221335s
+  Iteration: 12. Updated Centroids: 3. Obj. Value: 7422.692539. Time Taken: 0.218908s
+  Iteration: 13. Updated Centroids: 3. Obj. Value: 7422.077654. Time Taken: 0.224923s
+  Iteration: 14. Updated Centroids: 3. Obj. Value: 7420.451571. Time Taken: 0.211327s
+  Iteration: 15. Updated Centroids: 4. Obj. Value: 7417.033837. Time Taken: 0.218810s
+  Iteration: 16. Updated Centroids: 2. Obj. Value: 7416.658070. Time Taken: 0.216474s
+  Iteration: 17. Updated Centroids: 0. Obj. Value: 7416.633426. Time Taken: 0.216665s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.070067s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.07007s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.303115	0.590431	7416.633426
+      0: 3.694472	0.355893
+      1: 0.617674	0.885167
+      2: 0.000000	1.000000
+      3: 0.266765	0.954545
+      4: 3.410858	0.305556
+      5: 3.632479	0.209302
+      6: 0.000000	1.000000
+      7: 0.000000	1.000000
+      8: 3.901364	0.255814
+      9: 0.015658	0.998561
+     10: 0.545537	0.905263
+     11: 0.655881	0.881919
+     12: 0.000000	1.000000
+     13: 0.000000	1.000000
+     14: 3.579016	0.236486
+     15: 0.000000	1.000000
+     16: 2.848987	0.359375
+     17: 0.000000	1.000000
+     18: 2.179237	0.520000
+     19: 0.425209	0.926829
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	785	 1688	 315	 261	 234	 138	 153	 126	 108	 92	 25	 62	 22	 51	 48	 24	 46	 43	 45	 17	 36	 25	 35	 35	 28	 24	 10	 2	 21	 21	 20	 19	 10	 16	 14	 13	 14	 11	 10	 11	 11	 6	 9	 7	 5	 4	 6	 6	 5	 2	 4	 3	 3	 3	 0	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	20	 185	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	590	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	0	 3	 0	 0	 0	 63	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	5	 0	 4	 12	 2	 2	 0	 0	 1	 0	 22	 7	 0	 0	 0	 0	 0	 1	 0	 3	 0	 3	 1	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	10	 9	 7	 25	 3	 1	 1	 0	 0	 1	 27	 1	 6	 1	 1	 1	 0	 0	 0	 13	 0	 0	 0	 0	 0	 0	 8	 5	 0	 0	 0	 0	 2	 1	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	385	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	130	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	12	 33	 8	 3	 12	 2	 1	 6	 1	 3	 8	 2	 4	 0	 5	 6	 0	 1	 0	 9	 2	 0	 0	 0	 2	 0	 2	 0	 1	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	694	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	7	 86	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	239	 26	 1	 1	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	242	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	20	 5	 1	 6	 1	 0	 1	 2	 2	 1	 13	 1	 35	 1	 0	 17	 0	 0	 0	 0	 2	 12	 1	 0	 0	 1	 1	 16	 0	 0	 0	 0	 5	 0	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	442	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	10	 9	 5	 23	 6	 3	 0	 1	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	135	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	3	 3	 13	 2	 1	 1	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	5	 76	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 2/20
+  Random Seed: 3
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8393.857669. Time Taken: 0.269368s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7719.565678. Time Taken: 0.249363s
+  Iteration: 3. Updated Centroids: 16. Obj. Value: 7670.679837. Time Taken: 0.241840s
+  Iteration: 4. Updated Centroids: 17. Obj. Value: 7637.974334. Time Taken: 0.239626s
+  Iteration: 5. Updated Centroids: 14. Obj. Value: 7582.537328. Time Taken: 0.236282s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7512.635041. Time Taken: 0.237559s
+  Iteration: 7. Updated Centroids: 11. Obj. Value: 7504.261638. Time Taken: 0.228951s
+  Iteration: 8. Updated Centroids: 8. Obj. Value: 7501.407061. Time Taken: 0.228399s
+  Iteration: 9. Updated Centroids: 8. Obj. Value: 7499.676628. Time Taken: 0.229635s
+  Iteration: 10. Updated Centroids: 7. Obj. Value: 7498.482011. Time Taken: 0.222439s
+  Iteration: 11. Updated Centroids: 7. Obj. Value: 7497.385280. Time Taken: 0.225006s
+  Iteration: 12. Updated Centroids: 6. Obj. Value: 7496.315407. Time Taken: 0.234541s
+  Iteration: 13. Updated Centroids: 6. Obj. Value: 7495.112195. Time Taken: 0.221168s
+  Iteration: 14. Updated Centroids: 6. Obj. Value: 7493.716030. Time Taken: 0.219876s
+  Iteration: 15. Updated Centroids: 8. Obj. Value: 7489.603116. Time Taken: 0.225246s
+  Iteration: 16. Updated Centroids: 6. Obj. Value: 7486.573496. Time Taken: 0.236807s
+  Iteration: 17. Updated Centroids: 5. Obj. Value: 7485.612959. Time Taken: 0.221180s
+  Iteration: 18. Updated Centroids: 5. Obj. Value: 7485.407849. Time Taken: 0.219848s
+  Iteration: 19. Updated Centroids: 0. Obj. Value: 7485.316270. Time Taken: 0.199721s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.473112s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.473112s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.261424	0.588235	7485.316270
+      0: 4.117044	0.247319
+      1: 0.918296	0.666667
+      2: 0.464119	0.927835
+      3: 0.323832	0.950617
+      4: 0.281851	0.961111
+      5: 2.847319	0.303030
+      6: 0.812158	0.904018
+      7: 1.965768	0.590909
+      8: 0.000000	1.000000
+      9: 0.286397	0.950000
+     10: 1.182032	0.636364
+     11: 3.387326	0.259259
+     12: 0.013364	0.998801
+     13: 0.543564	0.875000
+     14: 0.000000	1.000000
+     15: 0.554778	0.870968
+     16: 1.299393	0.789157
+     17: 0.000000	1.000000
+     18: 1.265684	0.795455
+     19: 3.356824	0.315789
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	788	 1061	 335	 227	 212	 196	 144	 113	 105	 95	 87	 67	 62	 53	 53	 40	 42	 41	 42	 36	 36	 36	 28	 27	 25	 24	 22	 19	 21	 19	 20	 17	 18	 17	 15	 14	 14	 10	 11	 11	 11	 10	 9	 8	 5	 6	 6	 3	 5	 3	 3	 3	 2	 2	 2	 2	 0	 1	 1	 1	 1	 1	 1	 0	 1	 
+ 1	0	 0	 0	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	16	 270	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	3	 77	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	5	 173	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	0	 1	 3	 10	 2	 2	 9	 1	 1	 0	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	11	 405	 6	 1	 3	 0	 2	 0	 0	 0	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 3	 1	 3	 1	 0	 0	 1	 1	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	3	 13	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	785	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	0	 1	 0	 0	 0	 0	 0	 19	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	10	 21	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	9	 14	 1	 0	 2	 2	 0	 0	 3	 0	 2	 0	 0	 0	 0	 0	 1	 2	 1	 5	 0	 0	 7	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	833	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	0	 0	 0	 14	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	470	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	4	 27	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	262	 34	 0	 3	 0	 1	 0	 0	 4	 0	 6	 1	 4	 0	 0	 6	 0	 0	 0	 0	 0	 5	 1	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	528	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	0	 2	 1	 70	 1	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 8	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 
+19	7	 25	 4	 8	 36	 7	 1	 2	 1	 2	 2	 2	 2	 0	 1	 2	 0	 0	 0	 1	 2	 0	 0	 0	 2	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 3	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 3/20
+  Random Seed: 5
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8108.409794. Time Taken: 0.248649s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7581.482081. Time Taken: 0.271656s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7499.619768. Time Taken: 0.257993s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7444.005801. Time Taken: 0.249847s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7411.295562. Time Taken: 0.240303s
+  Iteration: 6. Updated Centroids: 15. Obj. Value: 7392.605504. Time Taken: 0.238307s
+  Iteration: 7. Updated Centroids: 15. Obj. Value: 7387.792273. Time Taken: 0.240812s
+  Iteration: 8. Updated Centroids: 12. Obj. Value: 7385.083793. Time Taken: 0.229490s
+  Iteration: 9. Updated Centroids: 10. Obj. Value: 7383.127155. Time Taken: 0.232352s
+  Iteration: 10. Updated Centroids: 9. Obj. Value: 7381.524291. Time Taken: 0.239208s
+  Iteration: 11. Updated Centroids: 9. Obj. Value: 7378.058392. Time Taken: 0.225258s
+  Iteration: 12. Updated Centroids: 8. Obj. Value: 7375.014386. Time Taken: 0.221008s
+  Iteration: 13. Updated Centroids: 7. Obj. Value: 7372.799892. Time Taken: 0.241074s
+  Iteration: 14. Updated Centroids: 7. Obj. Value: 7370.200015. Time Taken: 0.224532s
+  Iteration: 15. Updated Centroids: 7. Obj. Value: 7367.974236. Time Taken: 0.219858s
+  Iteration: 16. Updated Centroids: 7. Obj. Value: 7364.969592. Time Taken: 0.221618s
+  Iteration: 17. Updated Centroids: 4. Obj. Value: 7363.817807. Time Taken: 0.215895s
+  Iteration: 18. Updated Centroids: 4. Obj. Value: 7363.370947. Time Taken: 0.219236s
+  Iteration: 19. Updated Centroids: 4. Obj. Value: 7362.945957. Time Taken: 0.219558s
+  Iteration: 20. Updated Centroids: 3. Obj. Value: 7361.774088. Time Taken: 0.211761s
+  Iteration: 21. Updated Centroids: 2. Obj. Value: 7360.256831. Time Taken: 0.209166s
+  Iteration: 22. Updated Centroids: 3. Obj. Value: 7359.319426. Time Taken: 0.216414s
+  Iteration: 23. Updated Centroids: 2. Obj. Value: 7358.710363. Time Taken: 0.214005s
+  Iteration: 24. Updated Centroids: 0. Obj. Value: 7358.653246. Time Taken: 0.220575s
+Collect clustering solution...
+Clustering completed. Total time taken: 5.604228s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 5.604228s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.188447	0.621287	7358.653246
+      0: 4.001743	0.328982
+      1: 3.980538	0.193182
+      2: 1.175479	0.804878
+      3: 0.774243	0.842105
+      4: 0.022279	0.997835
+      5: 0.479832	0.896552
+      6: 3.174452	0.286920
+      7: 1.285973	0.594203
+      8: 0.000000	1.000000
+      9: 0.111910	0.985075
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 0.522978	0.909091
+     13: 0.000000	1.000000
+     14: 0.000000	1.000000
+     15: 1.053905	0.619048
+     16: 0.588405	0.918530
+     17: 1.657743	0.555556
+     18: 0.000000	1.000000
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	401	 1361	 335	 205	 239	 205	 150	 132	 109	 96	 61	 62	 33	 53	 51	 27	 44	 45	 42	 36	 34	 27	 22	 28	 28	 26	 11	 13	 20	 19	 20	 17	 10	 17	 15	 14	 14	 11	 11	 11	 11	 6	 9	 8	 4	 3	 6	 4	 5	 3	 3	 4	 2	 3	 1	 2	 1	 1	 1	 1	 1	 1	 1	 0	 1	 
+ 1	9	 29	 4	 2	 6	 3	 1	 2	 2	 2	 10	 4	 34	 1	 1	 18	 0	 0	 0	 3	 2	 12	 0	 0	 2	 0	 4	 10	 1	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	0	 0	 1	 66	 1	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 8	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 
+ 3	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 16	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	461	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	234	 27	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	68	 23	 8	 58	 12	 2	 0	 0	 2	 0	 26	 6	 1	 1	 0	 3	 0	 0	 0	 3	 1	 2	 0	 1	 0	 0	 9	 0	 0	 0	 0	 0	 3	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 2	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	82	 50	 1	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	504	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	330	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	310	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	148	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	1	 30	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	248	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	491	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	39	 23	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	31	 575	 5	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 1	 0	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	5	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	372	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 4/20
+  Random Seed: 7
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8236.369115. Time Taken: 0.273258s
+  Iteration: 2. Updated Centroids: 18. Obj. Value: 7612.334990. Time Taken: 0.263932s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7486.558750. Time Taken: 0.249354s
+  Iteration: 4. Updated Centroids: 17. Obj. Value: 7459.254438. Time Taken: 0.245090s
+  Iteration: 5. Updated Centroids: 15. Obj. Value: 7446.648391. Time Taken: 0.242096s
+  Iteration: 6. Updated Centroids: 11. Obj. Value: 7440.711940. Time Taken: 0.247250s
+  Iteration: 7. Updated Centroids: 12. Obj. Value: 7437.172282. Time Taken: 0.251403s
+  Iteration: 8. Updated Centroids: 9. Obj. Value: 7434.780437. Time Taken: 0.229359s
+  Iteration: 9. Updated Centroids: 5. Obj. Value: 7431.981281. Time Taken: 0.219335s
+  Iteration: 10. Updated Centroids: 5. Obj. Value: 7429.802573. Time Taken: 0.215614s
+  Iteration: 11. Updated Centroids: 4. Obj. Value: 7428.403307. Time Taken: 0.215097s
+  Iteration: 12. Updated Centroids: 4. Obj. Value: 7427.481039. Time Taken: 0.230070s
+  Iteration: 13. Updated Centroids: 2. Obj. Value: 7426.771525. Time Taken: 0.214819s
+  Iteration: 14. Updated Centroids: 3. Obj. Value: 7426.555479. Time Taken: 0.227133s
+  Iteration: 15. Updated Centroids: 3. Obj. Value: 7426.494602. Time Taken: 0.215552s
+  Iteration: 16. Updated Centroids: 2. Obj. Value: 7426.443466. Time Taken: 0.213172s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7426.410902. Time Taken: 0.230211s
+  Iteration: 18. Updated Centroids: 2. Obj. Value: 7426.360566. Time Taken: 0.216504s
+  Iteration: 19. Updated Centroids: 0. Obj. Value: 7426.329363. Time Taken: 0.204055s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.488290s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.488290s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.315968	0.554952	7426.329363
+      0: 3.822859	0.267926
+      1: 0.000000	1.000000
+      2: 1.383772	0.672131
+      3: 0.000000	1.000000
+      4: 0.000000	1.000000
+      5: 3.607885	0.225131
+      6: 0.580575	0.909385
+      7: 2.285372	0.596774
+      8: 3.887789	0.250000
+      9: 1.471462	0.658537
+     10: 0.332287	0.938776
+     11: 0.000000	1.000000
+     12: 0.000000	1.000000
+     13: 2.741254	0.447059
+     14: 1.299383	0.551282
+     15: 0.026890	0.997305
+     16: 0.000000	1.000000
+     17: 0.748050	0.890625
+     18: 1.351644	0.555556
+     19: 0.274961	0.961722
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	1177	 957	 300	 277	 244	 194	 148	 130	 104	 74	 27	 62	 23	 51	 48	 25	 44	 42	 43	 17	 32	 22	 35	 31	 28	 24	 7	 1	 14	 17	 20	 17	 5	 16	 14	 13	 3	 11	 11	 11	 4	 6	 9	 7	 4	 3	 5	 6	 5	 3	 3	 3	 2	 3	 0	 2	 1	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	157	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	0	 0	 41	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 11	 0	 0	 0	 7	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	492	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	4	 0	 0	 25	 2	 1	 0	 1	 3	 0	 19	 2	 43	 1	 1	 18	 0	 0	 0	 0	 0	 18	 1	 4	 0	 0	 7	 21	 0	 0	 0	 0	 9	 0	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	19	 281	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	222	 34	 2	 25	 4	 6	 0	 1	 0	 2	 43	 5	 0	 1	 0	 1	 0	 0	 1	 1	 0	 1	 1	 1	 0	 1	 9	 0	 2	 1	 0	 0	 2	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	4	 20	 0	 0	 5	 3	 3	 3	 2	 3	 4	 1	 2	 1	 5	 4	 0	 1	 1	 11	 0	 0	 0	 1	 0	 0	 1	 1	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	44	 135	 0	 0	 0	 2	 1	 0	 0	 18	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	230	 15	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	505	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	8	 38	 3	 6	 4	 1	 0	 0	 0	 1	 4	 2	 0	 0	 0	 0	 0	 0	 0	 13	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	31	 43	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	370	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	438	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	27	 399	 5	 0	 0	 0	 3	 0	 0	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 5	 0	 1	 0	 0	 1	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	0	 0	 0	 0	 0	 3	 0	 0	 5	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	6	 201	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 5/20
+  Random Seed: 9
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8408.780928. Time Taken: 0.245721s
+  Iteration: 2. Updated Centroids: 18. Obj. Value: 7749.210466. Time Taken: 0.244692s
+  Iteration: 3. Updated Centroids: 14. Obj. Value: 7679.288431. Time Taken: 0.247287s
+  Iteration: 4. Updated Centroids: 13. Obj. Value: 7653.896844. Time Taken: 0.236658s
+  Iteration: 5. Updated Centroids: 12. Obj. Value: 7638.040075. Time Taken: 0.232560s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7623.786447. Time Taken: 0.249034s
+  Iteration: 7. Updated Centroids: 10. Obj. Value: 7614.981921. Time Taken: 0.232423s
+  Iteration: 8. Updated Centroids: 10. Obj. Value: 7606.834298. Time Taken: 0.230690s
+  Iteration: 9. Updated Centroids: 7. Obj. Value: 7602.034059. Time Taken: 0.226925s
+  Iteration: 10. Updated Centroids: 6. Obj. Value: 7597.666334. Time Taken: 0.234093s
+  Iteration: 11. Updated Centroids: 6. Obj. Value: 7596.131854. Time Taken: 0.237387s
+  Iteration: 12. Updated Centroids: 3. Obj. Value: 7595.800929. Time Taken: 0.218220s
+  Iteration: 13. Updated Centroids: 0. Obj. Value: 7595.716409. Time Taken: 0.201683s
+Collect clustering solution...
+Clustering completed. Total time taken: 3.115070s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 3.115070s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.273265	0.557957	7595.716409
+      0: 3.793490	0.260713
+      1: 0.012946	0.998844
+      2: 1.411560	0.746988
+      3: 0.337290	0.937500
+      4: 1.576146	0.750000
+      5: 2.270665	0.584270
+      6: 2.522969	0.448276
+      7: 0.806518	0.839695
+      8: 3.747578	0.156250
+      9: 0.393724	0.936170
+     10: 2.846860	0.321429
+     11: 0.508489	0.935878
+     12: 0.439497	0.909091
+     13: 0.000000	1.000000
+     14: 0.000000	1.000000
+     15: 0.000000	1.000000
+     16: 3.894968	0.160784
+     17: 0.639401	0.893281
+     18: 0.000000	1.000000
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	1156	 1037	 318	 280	 247	 143	 135	 127	 111	 92	 50	 64	 28	 53	 36	 21	 43	 44	 36	 26	 28	 21	 37	 35	 28	 17	 10	 4	 21	 13	 9	 16	 7	 10	 12	 13	 13	 10	 10	 8	 5	 5	 8	 2	 4	 3	 6	 6	 2	 3	 3	 3	 2	 2	 1	 1	 2	 1	 1	 1	 1	 0	 1	 1	 1	 
+ 1	864	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	1	 1	 1	 0	 1	 62	 0	 0	 0	 0	 0	 0	 0	 0	 11	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	135	 0	 0	 0	 0	 0	 9	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	8	 75	 2	 1	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 1	 1	 0	 1	 1	 1	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	11	 52	 0	 3	 2	 2	 3	 0	 0	 3	 6	 2	 2	 0	 0	 2	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	0	 1	 13	 5	 1	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	330	 52	 0	 4	 0	 0	 1	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	0	 1	 0	 3	 0	 2	 3	 6	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 8	 0	 0	 0	 0	 2	 0	 8	 0	 0	 0	 0	 10	 0	 1	 7	 0	 0	 0	 1	 0	 3	 0	 0	 1	 0	 3	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	15	 264	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	5	 9	 2	 4	 3	 1	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	22	 613	 5	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 2	 0	 0	 0	 0	 1	 0	 0	 0	 1	 1	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 
+12	0	 0	 10	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 8	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	6	 1	 1	 32	 4	 1	 0	 2	 1	 0	 41	 6	 38	 1	 4	 21	 0	 0	 0	 16	 0	 18	 0	 0	 2	 0	 14	 18	 0	 0	 0	 0	 10	 1	 2	 2	 0	 0	 0	 0	 0	 5	 0	 1	 0	 3	 0	 0	 0	 2	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	226	 18	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 6	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	798	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	157	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 6/20
+  Random Seed: 11
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8291.047778. Time Taken: 0.257797s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7693.076522. Time Taken: 0.245682s
+  Iteration: 3. Updated Centroids: 15. Obj. Value: 7592.403204. Time Taken: 0.252937s
+  Iteration: 4. Updated Centroids: 15. Obj. Value: 7535.454156. Time Taken: 0.240457s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7514.556574. Time Taken: 0.253376s
+  Iteration: 6. Updated Centroids: 14. Obj. Value: 7507.959616. Time Taken: 0.242955s
+  Iteration: 7. Updated Centroids: 14. Obj. Value: 7503.717165. Time Taken: 0.239183s
+  Iteration: 8. Updated Centroids: 11. Obj. Value: 7498.886673. Time Taken: 0.232866s
+  Iteration: 9. Updated Centroids: 8. Obj. Value: 7494.896793. Time Taken: 0.229633s
+  Iteration: 10. Updated Centroids: 9. Obj. Value: 7493.484613. Time Taken: 0.223451s
+  Iteration: 11. Updated Centroids: 6. Obj. Value: 7491.973377. Time Taken: 0.218712s
+  Iteration: 12. Updated Centroids: 5. Obj. Value: 7490.874373. Time Taken: 0.236294s
+  Iteration: 13. Updated Centroids: 3. Obj. Value: 7490.304729. Time Taken: 0.231109s
+  Iteration: 14. Updated Centroids: 5. Obj. Value: 7489.637464. Time Taken: 0.232121s
+  Iteration: 15. Updated Centroids: 3. Obj. Value: 7489.303548. Time Taken: 0.215369s
+  Iteration: 16. Updated Centroids: 2. Obj. Value: 7489.219990. Time Taken: 0.203531s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7489.151096. Time Taken: 0.211970s
+  Iteration: 18. Updated Centroids: 0. Obj. Value: 7489.107295. Time Taken: 0.205562s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.259242s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.259242s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.289674	0.564891	7489.107295
+      0: 4.014088	0.242929
+      1: 0.804043	0.820423
+      2: 1.576106	0.720588
+      3: 0.539214	0.928328
+      4: 0.000000	1.000000
+      5: 1.366315	0.562500
+      6: 0.000000	1.000000
+      7: 1.921928	0.400000
+      8: 3.276694	0.294118
+      9: 0.208285	0.975000
+     10: 0.012616	0.998878
+     11: 0.350638	0.941558
+     12: 1.758843	0.666667
+     13: 1.278904	0.578947
+     14: 0.177473	0.976526
+     15: 3.633059	0.295455
+     16: 2.577532	0.557692
+     17: 0.110319	0.985337
+     18: 0.500543	0.935622
+     19: 0.461150	0.924837
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	927	 1065	 324	 262	 187	 195	 151	 129	 108	 94	 43	 66	 55	 51	 53	 34	 42	 43	 42	 29	 36	 39	 38	 36	 29	 22	 16	 20	 21	 19	 19	 16	 9	 13	 15	 14	 14	 11	 11	 11	 11	 6	 9	 7	 5	 3	 6	 4	 5	 0	 2	 3	 2	 2	 0	 1	 1	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	233	 44	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	0	 2	 1	 4	 49	 7	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	9	 272	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	303	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	0	 0	 0	 5	 9	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	540	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	1	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	50	 5	 1	 31	 3	 1	 0	 0	 0	 0	 27	 4	 6	 0	 0	 1	 0	 0	 0	 12	 0	 1	 0	 1	 0	 0	 6	 0	 0	 0	 0	 0	 8	 1	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 1	 0	 0	 0	 0	 4	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	0	 117	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	890	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	145	 8	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 0	 14	 0	 1	 0	 0	 1	 2	 0	 0	 0	 0	 1	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	65	 99	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	208	 4	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	0	 0	 3	 1	 4	 5	 0	 2	 3	 0	 26	 0	 6	 3	 0	 13	 1	 0	 3	 1	 0	 0	 0	 0	 0	 4	 1	 3	 0	 0	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	2	 2	 1	 29	 6	 1	 0	 0	 1	 0	 1	 2	 1	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	336	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	6	 218	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	19	 283	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 7/20
+  Random Seed: 13
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8393.702947. Time Taken: 0.259063s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7787.242187. Time Taken: 0.268057s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7694.425499. Time Taken: 0.248443s
+  Iteration: 4. Updated Centroids: 17. Obj. Value: 7592.313433. Time Taken: 0.242640s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7548.956280. Time Taken: 0.241332s
+  Iteration: 6. Updated Centroids: 15. Obj. Value: 7536.211549. Time Taken: 0.254351s
+  Iteration: 7. Updated Centroids: 11. Obj. Value: 7529.516120. Time Taken: 0.236215s
+  Iteration: 8. Updated Centroids: 8. Obj. Value: 7523.834853. Time Taken: 0.239190s
+  Iteration: 9. Updated Centroids: 8. Obj. Value: 7518.787583. Time Taken: 0.241617s
+  Iteration: 10. Updated Centroids: 11. Obj. Value: 7513.076130. Time Taken: 0.233414s
+  Iteration: 11. Updated Centroids: 9. Obj. Value: 7508.627673. Time Taken: 0.226242s
+  Iteration: 12. Updated Centroids: 9. Obj. Value: 7505.989349. Time Taken: 0.223808s
+  Iteration: 13. Updated Centroids: 3. Obj. Value: 7504.055670. Time Taken: 0.212035s
+  Iteration: 14. Updated Centroids: 4. Obj. Value: 7503.200517. Time Taken: 0.217713s
+  Iteration: 15. Updated Centroids: 3. Obj. Value: 7502.077961. Time Taken: 0.214180s
+  Iteration: 16. Updated Centroids: 4. Obj. Value: 7501.087348. Time Taken: 0.216551s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7499.600477. Time Taken: 0.227098s
+  Iteration: 18. Updated Centroids: 3. Obj. Value: 7497.427963. Time Taken: 0.218398s
+  Iteration: 19. Updated Centroids: 2. Obj. Value: 7497.220745. Time Taken: 0.211814s
+  Iteration: 20. Updated Centroids: 0. Obj. Value: 7497.197491. Time Taken: 0.201919s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.706622s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.706622s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.264122	0.568011	7497.197491
+      0: 3.878079	0.275018
+      1: 0.000000	1.000000
+      2: 1.980009	0.614583
+      3: 1.911408	0.500000
+      4: 0.012188	0.998921
+      5: 0.472861	0.926056
+      6: 3.864401	0.176895
+      7: 3.349030	0.265306
+      8: 2.447743	0.400000
+      9: 0.699224	0.865079
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 1.889260	0.525641
+     13: 0.984084	0.638298
+     14: 1.731404	0.717949
+     15: 0.761166	0.855556
+     16: 0.973250	0.809645
+     17: 1.107995	0.806142
+     18: 0.427340	0.945578
+     19: 2.921303	0.233333
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	1146	 902	 278	 220	 185	 142	 147	 126	 110	 87	 53	 64	 32	 20	 53	 26	 42	 42	 43	 24	 30	 18	 35	 33	 29	 25	 9	 8	 20	 18	 19	 16	 7	 16	 15	 13	 13	 11	 11	 10	 4	 6	 9	 8	 6	 3	 6	 1	 5	 3	 2	 3	 2	 1	 1	 1	 1	 1	 1	 1	 0	 1	 1	 1	 1	 
+ 1	492	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	1	 3	 1	 13	 59	 9	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	7	 15	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 5	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	926	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	16	 263	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	11	 2	 5	 49	 5	 1	 2	 2	 2	 1	 44	 5	 36	 2	 0	 22	 0	 1	 1	 16	 1	 20	 0	 0	 0	 0	 13	 13	 0	 0	 0	 0	 10	 0	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 0	 0	 0	 2	 0	 0	 0	 0	 1	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	1	 5	 13	 7	 7	 4	 0	 1	 2	 1	 0	 1	 0	 0	 0	 0	 1	 0	 1	 0	 0	 2	 0	 0	 1	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	8	 12	 1	 1	 2	 3	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 
+ 9	109	 14	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	508	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 33	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	18	 9	 41	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 7	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	120	 67	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	0	 1	 1	 28	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 1	 2	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	10	 77	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	319	 56	 0	 7	 0	 0	 0	 0	 0	 6	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	34	 420	 3	 0	 1	 49	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 1	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	8	 278	 1	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	0	 0	 7	 7	 0	 1	 1	 6	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 8/20
+  Random Seed: 15
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 7983.500822. Time Taken: 0.258454s
+  Iteration: 2. Updated Centroids: 18. Obj. Value: 7494.195214. Time Taken: 0.248951s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7425.851000. Time Taken: 0.257310s
+  Iteration: 4. Updated Centroids: 17. Obj. Value: 7400.722869. Time Taken: 0.247144s
+  Iteration: 5. Updated Centroids: 17. Obj. Value: 7384.974226. Time Taken: 0.255591s
+  Iteration: 6. Updated Centroids: 15. Obj. Value: 7366.132331. Time Taken: 0.242291s
+  Iteration: 7. Updated Centroids: 12. Obj. Value: 7357.351949. Time Taken: 0.230153s
+  Iteration: 8. Updated Centroids: 9. Obj. Value: 7354.473506. Time Taken: 0.234596s
+  Iteration: 9. Updated Centroids: 9. Obj. Value: 7353.420874. Time Taken: 0.227610s
+  Iteration: 10. Updated Centroids: 7. Obj. Value: 7352.934612. Time Taken: 0.222920s
+  Iteration: 11. Updated Centroids: 3. Obj. Value: 7352.700577. Time Taken: 0.230201s
+  Iteration: 12. Updated Centroids: 2. Obj. Value: 7352.575856. Time Taken: 0.217291s
+  Iteration: 13. Updated Centroids: 0. Obj. Value: 7352.516230. Time Taken: 0.199759s
+Collect clustering solution...
+Clustering completed. Total time taken: 3.149456s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 3.149456s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.253525	0.586964	7352.516230
+      0: 3.898268	0.287902
+      1: 0.000000	1.000000
+      2: 0.026583	0.997340
+      3: 0.000000	1.000000
+      4: 0.355545	0.958621
+      5: 0.889133	0.830645
+      6: 0.000000	1.000000
+      7: 1.649421	0.702703
+      8: 0.000000	1.000000
+      9: 0.682449	0.904215
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 0.650022	0.833333
+     13: 0.000000	1.000000
+     14: 0.000000	1.000000
+     15: 0.306116	0.964158
+     16: 3.930624	0.127273
+     17: 3.874690	0.194313
+     18: 1.000409	0.818444
+     19: 1.422888	0.750000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	767	 1297	 339	 313	 254	 206	 151	 131	 109	 94	 44	 59	 27	 47	 49	 13	 42	 45	 42	 26	 40	 22	 35	 34	 30	 23	 17	 2	 20	 19	 18	 14	 8	 15	 14	 14	 14	 11	 11	 11	 11	 6	 4	 7	 6	 0	 6	 6	 5	 4	 3	 4	 2	 3	 0	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	154	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	375	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	238	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	1	 139	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	15	 103	 1	 0	 0	 0	 0	 0	 0	 3	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	209	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	0	 1	 0	 0	 1	 3	 0	 0	 0	 0	 26	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	347	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	13	 236	 3	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	576	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	232	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	509	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	4	 269	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	6	 4	 6	 2	 0	 1	 1	 4	 0	 0	 3	 3	 0	 2	 5	 7	 0	 0	 0	 4	 0	 2	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	3	 0	 3	 12	 3	 1	 0	 0	 5	 0	 24	 2	 41	 4	 0	 28	 1	 0	 3	 12	 0	 17	 1	 0	 0	 2	 5	 21	 0	 0	 2	 0	 9	 2	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	284	 43	 0	 5	 1	 0	 0	 0	 0	 0	 0	 7	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 2	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	1	 30	 1	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 9/20
+  Random Seed: 17
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8170.567786. Time Taken: 0.246988s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7597.945549. Time Taken: 0.244325s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7519.931831. Time Taken: 0.249972s
+  Iteration: 4. Updated Centroids: 16. Obj. Value: 7487.427025. Time Taken: 0.252154s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7476.019018. Time Taken: 0.244000s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7467.740996. Time Taken: 0.234770s
+  Iteration: 7. Updated Centroids: 10. Obj. Value: 7459.979971. Time Taken: 0.227717s
+  Iteration: 8. Updated Centroids: 9. Obj. Value: 7453.076839. Time Taken: 0.224798s
+  Iteration: 9. Updated Centroids: 10. Obj. Value: 7445.209056. Time Taken: 0.234642s
+  Iteration: 10. Updated Centroids: 10. Obj. Value: 7436.820054. Time Taken: 0.227880s
+  Iteration: 11. Updated Centroids: 11. Obj. Value: 7427.593837. Time Taken: 0.228516s
+  Iteration: 12. Updated Centroids: 11. Obj. Value: 7422.192400. Time Taken: 0.229794s
+  Iteration: 13. Updated Centroids: 11. Obj. Value: 7417.762895. Time Taken: 0.239664s
+  Iteration: 14. Updated Centroids: 10. Obj. Value: 7414.271432. Time Taken: 0.230488s
+  Iteration: 15. Updated Centroids: 7. Obj. Value: 7410.632442. Time Taken: 0.222686s
+  Iteration: 16. Updated Centroids: 9. Obj. Value: 7403.031932. Time Taken: 0.223171s
+  Iteration: 17. Updated Centroids: 7. Obj. Value: 7399.888343. Time Taken: 0.220882s
+  Iteration: 18. Updated Centroids: 4. Obj. Value: 7398.430773. Time Taken: 0.218890s
+  Iteration: 19. Updated Centroids: 2. Obj. Value: 7396.522835. Time Taken: 0.204195s
+  Iteration: 20. Updated Centroids: 0. Obj. Value: 7396.487503. Time Taken: 0.200725s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.686418s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.686418s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.217663	0.604184	7396.487503
+      0: 3.939508	0.305512
+      1: 0.000000	1.000000
+      2: 3.688991	0.187919
+      3: 0.098581	0.988848
+      4: 3.116113	0.259259
+      5: 0.000000	1.000000
+      6: 0.734664	0.872340
+      7: 0.000000	1.000000
+      8: 2.832561	0.380952
+      9: 0.446522	0.948347
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 1.595890	0.709677
+     13: 0.015485	0.998580
+     14: 0.590724	0.894737
+     15: 0.000000	1.000000
+     16: 0.028898	0.997067
+     17: 0.000000	1.000000
+     18: 0.776434	0.816265
+     19: 1.174881	0.773585
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	625	 1358	 308	 314	 256	 200	 153	 133	 110	 96	 67	 63	 20	 54	 54	 20	 44	 44	 44	 26	 38	 23	 36	 37	 30	 25	 16	 2	 21	 18	 20	 17	 7	 16	 11	 14	 13	 11	 11	 11	 4	 5	 9	 8	 7	 3	 6	 6	 4	 5	 3	 4	 2	 3	 0	 1	 2	 1	 1	 1	 0	 1	 1	 1	 1	 
+ 1	506	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	3	 0	 0	 13	 2	 1	 0	 0	 2	 0	 28	 3	 26	 1	 0	 6	 0	 0	 0	 13	 0	 14	 1	 0	 0	 0	 5	 12	 0	 0	 0	 0	 7	 0	 0	 1	 0	 0	 0	 0	 0	 5	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 
+ 3	266	 2	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	2	 0	 0	 3	 0	 0	 0	 0	 0	 0	 2	 7	 21	 0	 0	 20	 0	 0	 0	 3	 0	 4	 1	 0	 0	 0	 3	 9	 0	 0	 0	 0	 4	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	146	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	23	 205	 1	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	136	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	1	 3	 1	 0	 1	 8	 0	 1	 2	 0	 0	 0	 1	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	10	 459	 3	 0	 0	 0	 2	 0	 0	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 1	 0	 1	 0	 0	 1	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	341	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	207	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	2	 22	 1	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	703	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	0	 17	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	152	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	340	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	271	 57	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	0	 0	 41	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 7	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 10/20
+  Random Seed: 19
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 7931.603435. Time Taken: 0.269617s
+  Iteration: 2. Updated Centroids: 16. Obj. Value: 7541.486924. Time Taken: 0.242720s
+  Iteration: 3. Updated Centroids: 15. Obj. Value: 7493.468810. Time Taken: 0.265167s
+  Iteration: 4. Updated Centroids: 15. Obj. Value: 7459.473184. Time Taken: 0.244144s
+  Iteration: 5. Updated Centroids: 14. Obj. Value: 7445.846138. Time Taken: 0.252908s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7437.933143. Time Taken: 0.240015s
+  Iteration: 7. Updated Centroids: 14. Obj. Value: 7431.718851. Time Taken: 0.233488s
+  Iteration: 8. Updated Centroids: 12. Obj. Value: 7428.554631. Time Taken: 0.231644s
+  Iteration: 9. Updated Centroids: 9. Obj. Value: 7425.406140. Time Taken: 0.229325s
+  Iteration: 10. Updated Centroids: 10. Obj. Value: 7423.245417. Time Taken: 0.232760s
+  Iteration: 11. Updated Centroids: 7. Obj. Value: 7421.091231. Time Taken: 0.238615s
+  Iteration: 12. Updated Centroids: 7. Obj. Value: 7417.038293. Time Taken: 0.228423s
+  Iteration: 13. Updated Centroids: 8. Obj. Value: 7409.177681. Time Taken: 0.222140s
+  Iteration: 14. Updated Centroids: 6. Obj. Value: 7405.370071. Time Taken: 0.230787s
+  Iteration: 15. Updated Centroids: 7. Obj. Value: 7404.025162. Time Taken: 0.238265s
+  Iteration: 16. Updated Centroids: 9. Obj. Value: 7403.079795. Time Taken: 0.234208s
+  Iteration: 17. Updated Centroids: 6. Obj. Value: 7402.168725. Time Taken: 0.220373s
+  Iteration: 18. Updated Centroids: 7. Obj. Value: 7401.091895. Time Taken: 0.223457s
+  Iteration: 19. Updated Centroids: 5. Obj. Value: 7399.291948. Time Taken: 0.236075s
+  Iteration: 20. Updated Centroids: 5. Obj. Value: 7397.760528. Time Taken: 0.219638s
+  Iteration: 21. Updated Centroids: 5. Obj. Value: 7396.904694. Time Taken: 0.218541s
+  Iteration: 22. Updated Centroids: 5. Obj. Value: 7396.305924. Time Taken: 0.234895s
+  Iteration: 23. Updated Centroids: 3. Obj. Value: 7395.572380. Time Taken: 0.221455s
+  Iteration: 24. Updated Centroids: 3. Obj. Value: 7395.000564. Time Taken: 0.216311s
+  Iteration: 25. Updated Centroids: 2. Obj. Value: 7394.512376. Time Taken: 0.211995s
+  Iteration: 26. Updated Centroids: 2. Obj. Value: 7394.334403. Time Taken: 0.209678s
+  Iteration: 27. Updated Centroids: 2. Obj. Value: 7394.047166. Time Taken: 0.216660s
+  Iteration: 28. Updated Centroids: 2. Obj. Value: 7393.793322. Time Taken: 0.215432s
+  Iteration: 29. Updated Centroids: 2. Obj. Value: 7393.651074. Time Taken: 0.215354s
+  Iteration: 30. Updated Centroids: 2. Obj. Value: 7393.509432. Time Taken: 0.213432s
+  Iteration: 31. Updated Centroids: 2. Obj. Value: 7393.393430. Time Taken: 0.214839s
+  Iteration: 32. Updated Centroids: 0. Obj. Value: 7393.353977. Time Taken: 0.206756s
+Collect clustering solution...
+Clustering completed. Total time taken: 7.405424s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 7.405424s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.174133	0.610771	7393.353977
+      0: 4.082987	0.274510
+      1: 0.349037	0.963993
+      2: 0.037244	0.996047
+      3: 0.000000	1.000000
+      4: 0.380947	0.925926
+      5: 0.000000	1.000000
+      6: 0.000000	1.000000
+      7: 0.000000	1.000000
+      8: 0.013350	0.998802
+      9: 0.000000	1.000000
+     10: 1.524274	0.668605
+     11: 0.647805	0.845833
+     12: 2.057852	0.538462
+     13: 0.464975	0.930328
+     14: 1.290852	0.750000
+     15: 0.000000	1.000000
+     16: 0.000000	1.000000
+     17: 0.918296	0.666667
+     18: 0.486560	0.927083
+     19: 3.664696	0.220430
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	547	 1148	 340	 311	 254	 207	 152	 123	 93	 99	 65	 71	 27	 22	 51	 27	 44	 45	 45	 32	 38	 27	 33	 35	 30	 26	 21	 3	 21	 20	 19	 18	 11	 17	 15	 14	 14	 11	 11	 10	 11	 6	 9	 8	 6	 3	 6	 3	 5	 5	 3	 3	 2	 3	 1	 2	 2	 1	 1	 1	 1	 1	 1	 1	 0	 
+ 1	4	 589	 3	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	252	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	301	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	2	 25	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	253	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	834	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	331	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	115	 37	 0	 7	 0	 1	 0	 0	 1	 0	 6	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	203	 36	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 4	 1	 2	 0	 0	 0	 11	 0	 0	 0	 0	 0	 28	 0	 0	 0	 0	 0	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	227	 12	 1	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 
+14	0	 1	 1	 0	 0	 0	 0	 0	 18	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	189	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	457	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	15	 267	 2	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	4	 2	 6	 11	 5	 1	 1	 0	 2	 0	 26	 2	 41	 1	 0	 21	 0	 0	 0	 10	 0	 14	 1	 0	 0	 0	 2	 20	 0	 0	 0	 0	 7	 0	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 11/20
+  Random Seed: 21
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8344.091862. Time Taken: 0.260950s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7750.179291. Time Taken: 0.248073s
+  Iteration: 3. Updated Centroids: 19. Obj. Value: 7659.944869. Time Taken: 0.245727s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7599.582901. Time Taken: 0.245500s
+  Iteration: 5. Updated Centroids: 17. Obj. Value: 7567.288386. Time Taken: 0.258017s
+  Iteration: 6. Updated Centroids: 16. Obj. Value: 7546.613350. Time Taken: 0.240391s
+  Iteration: 7. Updated Centroids: 13. Obj. Value: 7533.977379. Time Taken: 0.234282s
+  Iteration: 8. Updated Centroids: 9. Obj. Value: 7520.425982. Time Taken: 0.236329s
+  Iteration: 9. Updated Centroids: 9. Obj. Value: 7486.014499. Time Taken: 0.223402s
+  Iteration: 10. Updated Centroids: 7. Obj. Value: 7471.713479. Time Taken: 0.232698s
+  Iteration: 11. Updated Centroids: 8. Obj. Value: 7468.193371. Time Taken: 0.244418s
+  Iteration: 12. Updated Centroids: 5. Obj. Value: 7465.086952. Time Taken: 0.219769s
+  Iteration: 13. Updated Centroids: 4. Obj. Value: 7461.912358. Time Taken: 0.207765s
+  Iteration: 14. Updated Centroids: 5. Obj. Value: 7461.590670. Time Taken: 0.227923s
+  Iteration: 15. Updated Centroids: 5. Obj. Value: 7461.516267. Time Taken: 0.221238s
+  Iteration: 16. Updated Centroids: 4. Obj. Value: 7461.370854. Time Taken: 0.208593s
+  Iteration: 17. Updated Centroids: 3. Obj. Value: 7460.885029. Time Taken: 0.225390s
+  Iteration: 18. Updated Centroids: 4. Obj. Value: 7458.778839. Time Taken: 0.226890s
+  Iteration: 19. Updated Centroids: 5. Obj. Value: 7452.257841. Time Taken: 0.215976s
+  Iteration: 20. Updated Centroids: 5. Obj. Value: 7439.392492. Time Taken: 0.229909s
+  Iteration: 21. Updated Centroids: 7. Obj. Value: 7430.118289. Time Taken: 0.225368s
+  Iteration: 22. Updated Centroids: 4. Obj. Value: 7429.516241. Time Taken: 0.211021s
+  Iteration: 23. Updated Centroids: 2. Obj. Value: 7429.429462. Time Taken: 0.220647s
+  Iteration: 24. Updated Centroids: 3. Obj. Value: 7429.023046. Time Taken: 0.207577s
+  Iteration: 25. Updated Centroids: 3. Obj. Value: 7428.828165. Time Taken: 0.208984s
+  Iteration: 26. Updated Centroids: 3. Obj. Value: 7428.827269. Time Taken: 0.213387s
+  Iteration: 27. Updated Centroids: 0. Obj. Value: 7428.830312. Time Taken: 0.202104s
+Collect clustering solution...
+Clustering completed. Total time taken: 6.226237s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 6.226237s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.179954	0.615278	7428.830312
+      0: 4.082090	0.322283
+      1: 1.214267	0.766272
+      2: 0.407608	0.942529
+      3: 0.000000	1.000000
+      4: 1.236234	0.543210
+      5: 0.454692	0.942308
+      6: 1.411478	0.733333
+      7: 0.018646	0.998239
+      8: 2.025175	0.480315
+      9: 0.771331	0.873016
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 0.000000	1.000000
+     13: 1.827575	0.648649
+     14: 1.529615	0.708333
+     15: 0.000000	1.000000
+     16: 2.241446	0.400000
+     17: 3.890944	0.142857
+     18: 1.497855	0.482877
+     19: 2.312700	0.563636
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	407	 1293	 286	 273	 140	 136	 144	 128	 114	 94	 86	 67	 66	 53	 37	 36	 43	 44	 45	 19	 37	 39	 37	 36	 30	 26	 16	 22	 19	 19	 19	 18	 15	 18	 13	 15	 11	 11	 11	 11	 4	 10	 9	 4	 6	 6	 6	 4	 5	 2	 2	 4	 2	 0	 2	 2	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	259	 56	 6	 2	 0	 2	 0	 2	 0	 2	 1	 2	 0	 0	 1	 0	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	6	 164	 1	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	147	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	132	 103	 0	 0	 0	 0	 2	 0	 0	 3	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	5	 245	 3	 1	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	0	 0	 1	 22	 3	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	567	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	1	 1	 39	 0	 1	 61	 0	 0	 0	 0	 0	 0	 0	 0	 11	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 7	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	4	 55	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	611	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	805	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	356	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	0	 2	 0	 9	 48	 7	 2	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	11	 51	 0	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 1	 0	 0	 0	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	288	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	1	 2	 8	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	3	 5	 7	 0	 5	 0	 3	 3	 0	 0	 6	 1	 2	 1	 4	 6	 0	 1	 0	 9	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	131	 141	 1	 8	 0	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 1	 1	 0	 0	 1	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	0	 6	 2	 8	 62	 5	 0	 1	 0	 0	 4	 0	 0	 0	 0	 5	 0	 0	 0	 11	 0	 0	 1	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 12/20
+  Random Seed: 23
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8173.623650. Time Taken: 0.272046s
+  Iteration: 2. Updated Centroids: 18. Obj. Value: 7616.411178. Time Taken: 0.263052s
+  Iteration: 3. Updated Centroids: 16. Obj. Value: 7566.158135. Time Taken: 0.246269s
+  Iteration: 4. Updated Centroids: 14. Obj. Value: 7551.629920. Time Taken: 0.239220s
+  Iteration: 5. Updated Centroids: 13. Obj. Value: 7543.248151. Time Taken: 0.232532s
+  Iteration: 6. Updated Centroids: 10. Obj. Value: 7534.229774. Time Taken: 0.226339s
+  Iteration: 7. Updated Centroids: 10. Obj. Value: 7528.727053. Time Taken: 0.228645s
+  Iteration: 8. Updated Centroids: 12. Obj. Value: 7520.231495. Time Taken: 0.228895s
+  Iteration: 9. Updated Centroids: 11. Obj. Value: 7514.734980. Time Taken: 0.227839s
+  Iteration: 10. Updated Centroids: 12. Obj. Value: 7510.654689. Time Taken: 0.231636s
+  Iteration: 11. Updated Centroids: 8. Obj. Value: 7506.116562. Time Taken: 0.222984s
+  Iteration: 12. Updated Centroids: 7. Obj. Value: 7503.052970. Time Taken: 0.237981s
+  Iteration: 13. Updated Centroids: 5. Obj. Value: 7500.516289. Time Taken: 0.221760s
+  Iteration: 14. Updated Centroids: 4. Obj. Value: 7498.587659. Time Taken: 0.222439s
+  Iteration: 15. Updated Centroids: 3. Obj. Value: 7497.836835. Time Taken: 0.232933s
+  Iteration: 16. Updated Centroids: 3. Obj. Value: 7497.015965. Time Taken: 0.223419s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7496.499355. Time Taken: 0.227675s
+  Iteration: 18. Updated Centroids: 2. Obj. Value: 7496.277018. Time Taken: 0.212929s
+  Iteration: 19. Updated Centroids: 0. Obj. Value: 7496.160834. Time Taken: 0.204838s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.474493s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.474493s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.223284	0.598636	7496.160834
+      0: 4.074699	0.267760
+      1: 0.000000	1.000000
+      2: 1.372160	0.766667
+      3: 0.713598	0.883838
+      4: 0.503258	0.888889
+      5: 0.984337	0.807107
+      6: 0.000000	1.000000
+      7: 3.153492	0.452632
+      8: 0.011897	0.998951
+      9: 0.130633	0.981900
+     10: 0.000000	1.000000
+     11: 0.000000	1.000000
+     12: 1.089230	0.785714
+     13: 1.887521	0.596774
+     14: 3.363101	0.251748
+     15: 0.420026	0.933333
+     16: 0.000000	1.000000
+     17: 2.324130	0.508671
+     18: 0.459715	0.929329
+     19: 0.492942	0.945755
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	621	 1127	 340	 284	 248	 203	 153	 131	 105	 95	 57	 59	 29	 53	 51	 26	 41	 44	 44	 37	 34	 24	 35	 36	 28	 26	 13	 9	 21	 18	 20	 17	 7	 17	 15	 14	 13	 10	 11	 11	 11	 6	 9	 6	 5	 3	 6	 6	 5	 3	 3	 3	 2	 3	 0	 2	 1	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	1	 0	 0	 23	 2	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	15	 175	 2	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	0	 0	 0	 0	 0	 0	 0	 0	 8	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	159	 29	 0	 0	 0	 0	 0	 0	 0	 0	 1	 2	 1	 0	 0	 0	 1	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	241	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	13	 43	 4	 3	 5	 2	 1	 3	 0	 2	 1	 1	 2	 0	 1	 2	 1	 0	 0	 1	 2	 0	 1	 0	 2	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	952	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	217	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	148	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	801	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 11	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	37	 12	 0	 5	 1	 3	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	1	 0	 0	 4	 0	 1	 0	 1	 1	 0	 18	 9	 36	 1	 0	 19	 0	 0	 1	 1	 0	 16	 0	 0	 0	 0	 2	 14	 0	 0	 0	 0	 10	 0	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	1	 28	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	420	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	88	 31	 2	 14	 3	 1	 0	 0	 0	 0	 20	 2	 0	 0	 0	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 5	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	15	 263	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	4	 401	 4	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 1	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 2	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 13/20
+  Random Seed: 25
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8125.785313. Time Taken: 0.255920s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7582.390108. Time Taken: 0.248895s
+  Iteration: 3. Updated Centroids: 19. Obj. Value: 7487.738141. Time Taken: 0.264847s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7416.374010. Time Taken: 0.250039s
+  Iteration: 5. Updated Centroids: 15. Obj. Value: 7394.626380. Time Taken: 0.238582s
+  Iteration: 6. Updated Centroids: 14. Obj. Value: 7385.254504. Time Taken: 0.254500s
+  Iteration: 7. Updated Centroids: 10. Obj. Value: 7382.092664. Time Taken: 0.233731s
+  Iteration: 8. Updated Centroids: 9. Obj. Value: 7380.494070. Time Taken: 0.223325s
+  Iteration: 9. Updated Centroids: 6. Obj. Value: 7379.654772. Time Taken: 0.220744s
+  Iteration: 10. Updated Centroids: 6. Obj. Value: 7379.052804. Time Taken: 0.221523s
+  Iteration: 11. Updated Centroids: 3. Obj. Value: 7378.617558. Time Taken: 0.212985s
+  Iteration: 12. Updated Centroids: 4. Obj. Value: 7378.346620. Time Taken: 0.235414s
+  Iteration: 13. Updated Centroids: 2. Obj. Value: 7378.167535. Time Taken: 0.214436s
+  Iteration: 14. Updated Centroids: 3. Obj. Value: 7378.130784. Time Taken: 0.227506s
+  Iteration: 15. Updated Centroids: 0. Obj. Value: 7378.069868. Time Taken: 0.204728s
+Collect clustering solution...
+Clustering completed. Total time taken: 3.594698s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 3.594698s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.319683	0.590893	7378.069868
+      0: 3.988645	0.303376
+      1: 0.000000	1.000000
+      2: 0.000000	1.000000
+      3: 1.910026	0.650000
+      4: 2.205829	0.545455
+      5: 0.000000	1.000000
+      6: 0.000000	1.000000
+      7: 1.251629	0.666667
+      8: 0.000000	1.000000
+      9: 1.121928	0.800000
+     10: 0.640206	0.882353
+     11: 2.376867	0.487805
+     12: 0.242808	0.968254
+     13: 0.721092	0.896266
+     14: 2.082552	0.583333
+     15: 0.000000	1.000000
+     16: 3.277293	0.309091
+     17: 0.920753	0.774691
+     18: 0.000000	1.000000
+     19: 0.034073	0.996441
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	721	 1411	 333	 247	 251	 205	 148	 114	 95	 84	 70	 70	 67	 54	 51	 46	 43	 45	 44	 39	 37	 40	 34	 30	 30	 23	 22	 23	 21	 19	 19	 16	 17	 17	 15	 15	 14	 11	 11	 11	 11	 10	 9	 8	 5	 3	 5	 6	 4	 4	 2	 4	 2	 3	 2	 2	 1	 1	 1	 1	 1	 1	 0	 1	 1	 
+ 1	193	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	506	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	0	 1	 0	 0	 1	 3	 0	 0	 0	 0	 26	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	5	 4	 3	 24	 0	 0	 3	 0	 0	 0	 0	 1	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	448	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	460	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	0	 1	 1	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	226	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	1	 0	 1	 0	 0	 1	 1	 0	 16	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	0	 1	 0	 0	 0	 0	 0	 15	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	40	 7	 1	 9	 0	 0	 0	 3	 0	 15	 1	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 0	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	4	 183	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	31	 432	 2	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 1	 1	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	1	 0	 0	 14	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	335	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	17	 18	 11	 34	 5	 1	 0	 3	 1	 0	 0	 1	 1	 1	 2	 0	 0	 0	 0	 3	 1	 1	 1	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 
+17	251	 66	 2	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	215	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	280	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 14/20
+  Random Seed: 27
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8185.710089. Time Taken: 0.256499s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7589.988346. Time Taken: 0.254840s
+  Iteration: 3. Updated Centroids: 20. Obj. Value: 7529.088513. Time Taken: 0.249164s
+  Iteration: 4. Updated Centroids: 19. Obj. Value: 7482.430830. Time Taken: 0.244133s
+  Iteration: 5. Updated Centroids: 18. Obj. Value: 7400.114270. Time Taken: 0.247421s
+  Iteration: 6. Updated Centroids: 17. Obj. Value: 7332.726240. Time Taken: 0.243441s
+  Iteration: 7. Updated Centroids: 14. Obj. Value: 7326.315566. Time Taken: 0.237355s
+  Iteration: 8. Updated Centroids: 12. Obj. Value: 7324.730040. Time Taken: 0.247321s
+  Iteration: 9. Updated Centroids: 11. Obj. Value: 7323.775289. Time Taken: 0.247164s
+  Iteration: 10. Updated Centroids: 7. Obj. Value: 7322.703934. Time Taken: 0.229733s
+  Iteration: 11. Updated Centroids: 6. Obj. Value: 7321.809754. Time Taken: 0.225710s
+  Iteration: 12. Updated Centroids: 6. Obj. Value: 7320.430914. Time Taken: 0.219650s
+  Iteration: 13. Updated Centroids: 5. Obj. Value: 7319.260891. Time Taken: 0.232118s
+  Iteration: 14. Updated Centroids: 3. Obj. Value: 7318.395149. Time Taken: 0.216156s
+  Iteration: 15. Updated Centroids: 3. Obj. Value: 7317.464164. Time Taken: 0.227766s
+  Iteration: 16. Updated Centroids: 4. Obj. Value: 7316.886984. Time Taken: 0.218965s
+  Iteration: 17. Updated Centroids: 3. Obj. Value: 7316.248894. Time Taken: 0.216356s
+  Iteration: 18. Updated Centroids: 3. Obj. Value: 7315.647601. Time Taken: 0.215151s
+  Iteration: 19. Updated Centroids: 2. Obj. Value: 7314.977458. Time Taken: 0.210474s
+  Iteration: 20. Updated Centroids: 2. Obj. Value: 7314.575766. Time Taken: 0.214399s
+  Iteration: 21. Updated Centroids: 2. Obj. Value: 7314.192620. Time Taken: 0.211761s
+  Iteration: 22. Updated Centroids: 2. Obj. Value: 7314.012227. Time Taken: 0.211905s
+  Iteration: 23. Updated Centroids: 0. Obj. Value: 7313.950820. Time Taken: 0.201754s
+Collect clustering solution...
+Clustering completed. Total time taken: 5.368697s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 5.368697s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.186942	0.617127	7313.950820
+      0: 4.078317	0.292231
+      1: 0.000000	1.000000
+      2: 0.000000	1.000000
+      3: 0.328641	0.939698
+      4: 0.000000	1.000000
+      5: 0.000000	1.000000
+      6: 0.000000	1.000000
+      7: 0.000000	1.000000
+      8: 0.565587	0.910828
+      9: 3.736565	0.216216
+     10: 0.301379	0.946429
+     11: 1.722665	0.642857
+     12: 0.000000	1.000000
+     13: 0.028436	0.997122
+     14: 0.618813	0.919908
+     15: 0.425830	0.938462
+     16: 0.028970	0.997059
+     17: 3.569275	0.219895
+     18: 0.503258	0.888889
+     19: 0.520773	0.910714
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	459	 1230	 334	 313	 249	 209	 151	 132	 110	 96	 68	 67	 26	 52	 52	 25	 42	 45	 45	 30	 37	 24	 33	 36	 28	 26	 19	 2	 21	 19	 20	 17	 12	 17	 15	 13	 14	 11	 11	 11	 11	 6	 9	 8	 7	 3	 6	 6	 5	 5	 3	 3	 2	 3	 1	 2	 2	 1	 1	 1	 1	 1	 0	 1	 0	 
+ 1	181	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	225	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	187	 12	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	478	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	192	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	227	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	232	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	20	 286	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	16	 8	 10	 6	 6	 0	 1	 2	 1	 2	 3	 4	 0	 2	 2	 0	 0	 0	 0	 1	 1	 0	 4	 1	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 
+10	159	 9	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	17	 54	 4	 2	 1	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 
+12	277	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	693	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	17	 402	 3	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	2	 61	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	339	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	10	 1	 0	 11	 2	 1	 1	 0	 3	 0	 26	 2	 42	 1	 0	 23	 0	 0	 0	 11	 0	 17	 1	 0	 0	 0	 3	 21	 0	 0	 0	 0	 6	 0	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	0	 8	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	3	 51	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 15/20
+  Random Seed: 29
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8309.510425. Time Taken: 0.283962s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7713.356230. Time Taken: 0.249318s
+  Iteration: 3. Updated Centroids: 19. Obj. Value: 7641.776098. Time Taken: 0.248547s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7586.605804. Time Taken: 0.258855s
+  Iteration: 5. Updated Centroids: 18. Obj. Value: 7555.553376. Time Taken: 0.298494s
+  Iteration: 6. Updated Centroids: 17. Obj. Value: 7540.439874. Time Taken: 0.280564s
+  Iteration: 7. Updated Centroids: 15. Obj. Value: 7533.402656. Time Taken: 0.280501s
+  Iteration: 8. Updated Centroids: 14. Obj. Value: 7528.576113. Time Taken: 0.237458s
+  Iteration: 9. Updated Centroids: 11. Obj. Value: 7516.106142. Time Taken: 0.244631s
+  Iteration: 10. Updated Centroids: 8. Obj. Value: 7512.200131. Time Taken: 0.226283s
+  Iteration: 11. Updated Centroids: 11. Obj. Value: 7511.231279. Time Taken: 0.230986s
+  Iteration: 12. Updated Centroids: 8. Obj. Value: 7510.659377. Time Taken: 0.221460s
+  Iteration: 13. Updated Centroids: 6. Obj. Value: 7510.139463. Time Taken: 0.228771s
+  Iteration: 14. Updated Centroids: 4. Obj. Value: 7509.919130. Time Taken: 0.233197s
+  Iteration: 15. Updated Centroids: 2. Obj. Value: 7509.879818. Time Taken: 0.216229s
+  Iteration: 16. Updated Centroids: 0. Obj. Value: 7509.843041. Time Taken: 0.219542s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.035587s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.035587s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.318542	0.543049	7509.843041
+      0: 3.666839	0.274297
+      1: 0.000000	1.000000
+      2: 2.059914	0.603306
+      3: 0.000000	1.000000
+      4: 1.840153	0.637255
+      5: 0.000000	1.000000
+      6: 0.022488	0.997812
+      7: 0.911554	0.811538
+      8: 3.488409	0.253247
+      9: 0.938560	0.790378
+     10: 0.114225	0.986842
+     11: 2.919192	0.500000
+     12: 1.112670	0.815789
+     13: 0.000000	1.000000
+     14: 0.588373	0.924812
+     15: 0.411475	0.924528
+     16: 0.000000	1.000000
+     17: 3.270147	0.340206
+     18: 3.991941	0.219178
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	1204	 1239	 325	 267	 110	 100	 136	 125	 110	 97	 41	 55	 21	 53	 38	 23	 43	 41	 45	 15	 37	 22	 37	 36	 30	 24	 8	 0	 21	 17	 19	 17	 6	 17	 10	 13	 14	 11	 11	 11	 11	 3	 9	 3	 6	 3	 6	 1	 5	 3	 2	 3	 2	 0	 0	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	249	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	6	 7	 2	 4	 13	 73	 1	 0	 0	 0	 0	 0	 0	 0	 11	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	132	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	0	 2	 1	 11	 65	 12	 0	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	294	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	456	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	82	 422	 4	 1	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	29	 2	 9	 39	 4	 2	 0	 2	 1	 0	 21	 10	 4	 1	 1	 0	 0	 0	 0	 7	 2	 2	 0	 0	 0	 0	 10	 0	 0	 0	 0	 0	 2	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	230	 44	 0	 0	 0	 16	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	150	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	76	 13	 8	 1	 1	 1	 0	 4	 0	 0	 16	 2	 3	 0	 4	 1	 1	 1	 0	 6	 0	 1	 0	 1	 0	 0	 0	 3	 0	 1	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 1	 1	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	3	 1	 0	 0	 62	 5	 0	 0	 0	 0	 3	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	193	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	14	 369	 2	 0	 0	 1	 3	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	196	 15	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	0	 0	 0	 0	 0	 0	 9	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	33	 2	 0	 7	 1	 0	 1	 0	 2	 0	 8	 1	 8	 1	 0	 8	 0	 0	 0	 10	 0	 4	 1	 0	 0	 0	 1	 7	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	7	 7	 3	 3	 3	 1	 4	 4	 1	 0	 6	 3	 32	 0	 0	 16	 0	 3	 0	 4	 0	 12	 0	 0	 0	 1	 4	 12	 0	 0	 0	 0	 8	 0	 2	 0	 0	 0	 0	 0	 0	 6	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	380	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 16/20
+  Random Seed: 31
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8339.050815. Time Taken: 0.253625s
+  Iteration: 2. Updated Centroids: 20. Obj. Value: 7748.645211. Time Taken: 0.247249s
+  Iteration: 3. Updated Centroids: 19. Obj. Value: 7624.086526. Time Taken: 0.245545s
+  Iteration: 4. Updated Centroids: 15. Obj. Value: 7596.431976. Time Taken: 0.252457s
+  Iteration: 5. Updated Centroids: 14. Obj. Value: 7578.270988. Time Taken: 0.250388s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7550.445286. Time Taken: 0.247905s
+  Iteration: 7. Updated Centroids: 9. Obj. Value: 7534.260578. Time Taken: 0.224723s
+  Iteration: 8. Updated Centroids: 8. Obj. Value: 7523.340756. Time Taken: 0.224392s
+  Iteration: 9. Updated Centroids: 8. Obj. Value: 7516.019295. Time Taken: 0.226736s
+  Iteration: 10. Updated Centroids: 9. Obj. Value: 7512.943464. Time Taken: 0.232539s
+  Iteration: 11. Updated Centroids: 8. Obj. Value: 7507.831933. Time Taken: 0.225794s
+  Iteration: 12. Updated Centroids: 8. Obj. Value: 7496.630519. Time Taken: 0.230656s
+  Iteration: 13. Updated Centroids: 8. Obj. Value: 7473.198670. Time Taken: 0.234241s
+  Iteration: 14. Updated Centroids: 7. Obj. Value: 7456.427986. Time Taken: 0.222032s
+  Iteration: 15. Updated Centroids: 5. Obj. Value: 7452.997176. Time Taken: 0.231581s
+  Iteration: 16. Updated Centroids: 5. Obj. Value: 7449.566395. Time Taken: 0.216293s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7448.224592. Time Taken: 0.209791s
+  Iteration: 18. Updated Centroids: 2. Obj. Value: 7448.221335. Time Taken: 0.224180s
+  Iteration: 19. Updated Centroids: 0. Obj. Value: 7448.218740. Time Taken: 0.219062s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.491484s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.491484s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.208583	0.585924	7448.218740
+      0: 4.063139	0.281429
+      1: 1.021928	0.800000
+      2: 2.316487	0.461538
+      3: 1.772138	0.675000
+      4: 0.936425	0.813084
+      5: 0.000000	1.000000
+      6: 0.508739	0.908654
+      7: 1.177882	0.493852
+      8: 1.374368	0.691489
+      9: 3.174157	0.440000
+     10: 1.778634	0.640000
+     11: 2.849157	0.333333
+     12: 3.581473	0.243056
+     13: 0.000000	1.000000
+     14: 3.660716	0.246575
+     15: 3.193719	0.354167
+     16: 0.000000	1.000000
+     17: 0.012177	0.998922
+     18: 0.600414	0.905594
+     19: 0.541553	0.913846
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	505	 1079	 317	 265	 187	 191	 148	 127	 108	 91	 49	 58	 28	 50	 44	 24	 42	 43	 43	 20	 30	 20	 21	 30	 28	 25	 11	 8	 20	 18	 20	 16	 5	 16	 13	 14	 14	 11	 11	 10	 11	 6	 9	 7	 4	 2	 6	 1	 5	 3	 3	 3	 2	 1	 0	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 16	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	0	 0	 0	 6	 18	 5	 0	 0	 0	 0	 1	 1	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	1	 27	 2	 0	 5	 1	 0	 0	 1	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	15	 87	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	163	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	378	 33	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	241	 237	 0	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	65	 17	 0	 8	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	16	 44	 4	 2	 2	 3	 1	 2	 1	 4	 1	 1	 4	 0	 1	 2	 0	 0	 0	 1	 2	 0	 1	 0	 2	 0	 2	 1	 1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	1	 2	 0	 7	 32	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	0	 0	 1	 7	 0	 1	 1	 4	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	3	 0	 4	 4	 2	 1	 0	 0	 1	 0	 14	 2	 35	 1	 0	 17	 0	 0	 0	 8	 0	 16	 0	 0	 0	 0	 5	 14	 0	 0	 0	 0	 8	 0	 1	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	505	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	23	 36	 18	 14	 8	 2	 0	 0	 3	 1	 5	 3	 1	 2	 5	 2	 1	 1	 1	 8	 1	 4	 0	 2	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	51	 5	 1	 20	 5	 1	 3	 2	 0	 3	 25	 7	 0	 0	 0	 1	 1	 0	 0	 4	 0	 1	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 3	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 2	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	803	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	927	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	16	 259	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 7	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	21	 297	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 17/20
+  Random Seed: 33
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8230.869740. Time Taken: 0.252189s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7628.093222. Time Taken: 0.242790s
+  Iteration: 3. Updated Centroids: 18. Obj. Value: 7583.383412. Time Taken: 0.249556s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7540.215650. Time Taken: 0.248740s
+  Iteration: 5. Updated Centroids: 16. Obj. Value: 7514.332237. Time Taken: 0.242483s
+  Iteration: 6. Updated Centroids: 15. Obj. Value: 7504.461856. Time Taken: 0.251763s
+  Iteration: 7. Updated Centroids: 13. Obj. Value: 7496.546902. Time Taken: 0.237802s
+  Iteration: 8. Updated Centroids: 10. Obj. Value: 7494.378384. Time Taken: 0.241430s
+  Iteration: 9. Updated Centroids: 6. Obj. Value: 7493.184700. Time Taken: 0.240585s
+  Iteration: 10. Updated Centroids: 5. Obj. Value: 7490.148295. Time Taken: 0.237826s
+  Iteration: 11. Updated Centroids: 4. Obj. Value: 7483.839708. Time Taken: 0.219171s
+  Iteration: 12. Updated Centroids: 3. Obj. Value: 7483.597871. Time Taken: 0.206143s
+  Iteration: 13. Updated Centroids: 2. Obj. Value: 7483.508727. Time Taken: 0.207187s
+  Iteration: 14. Updated Centroids: 2. Obj. Value: 7483.430223. Time Taken: 0.206931s
+  Iteration: 15. Updated Centroids: 0. Obj. Value: 7483.417873. Time Taken: 0.201967s
+Collect clustering solution...
+Clustering completed. Total time taken: 3.558095s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 3.558095s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.172137	0.604299	7483.417873
+      0: 3.999029	0.297455
+      1: 1.137995	0.681013
+      2: 1.221391	0.630435
+      3: 0.365664	0.936585
+      4: 0.332088	0.965135
+      5: 0.023324	0.997717
+      6: 1.918296	0.333333
+      7: 3.465897	0.209459
+      8: 0.000000	1.000000
+      9: 1.530140	0.619048
+     10: 2.054220	0.545455
+     11: 3.902656	0.175000
+     12: 3.107998	0.303571
+     13: 1.384425	0.686047
+     14: 0.000000	1.000000
+     15: 0.000000	1.000000
+     16: 0.644985	0.891304
+     17: 2.113283	0.333333
+     18: 0.000000	1.000000
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	557	 1227	 306	 287	 252	 148	 151	 128	 110	 92	 49	 66	 25	 53	 52	 29	 40	 43	 44	 25	 36	 21	 36	 37	 30	 24	 8	 2	 21	 18	 19	 16	 7	 17	 14	 13	 13	 11	 11	 11	 4	 3	 9	 8	 7	 3	 6	 6	 5	 1	 3	 4	 2	 3	 1	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	269	 112	 1	 8	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	87	 45	 0	 0	 0	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	192	 12	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	6	 609	 3	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 0	 1	 1	 2	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	437	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	2	 2	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	11	 0	 1	 31	 5	 2	 0	 0	 1	 0	 31	 2	 7	 1	 0	 8	 0	 0	 0	 15	 0	 5	 0	 0	 0	 0	 15	 4	 0	 0	 0	 0	 3	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	0	 35	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	0	 13	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 4	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	10	 12	 42	 0	 0	 1	 1	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 7	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	7	 2	 0	 3	 0	 0	 2	 2	 2	 3	 5	 0	 2	 1	 0	 1	 0	 0	 1	 0	 0	 2	 1	 0	 0	 2	 0	 2	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	1	 0	 0	 0	 1	 0	 0	 0	 0	 0	 12	 4	 34	 0	 0	 10	 0	 0	 0	 2	 0	 13	 0	 0	 0	 0	 0	 15	 0	 0	 0	 0	 8	 0	 0	 0	 0	 0	 0	 0	 0	 7	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	10	 14	 1	 0	 1	 59	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	384	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	602	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	3	 41	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	1	 0	 0	 3	 0	 0	 0	 3	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	99	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	1056	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 18/20
+  Random Seed: 35
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8115.217417. Time Taken: 0.254093s
+  Iteration: 2. Updated Centroids: 15. Obj. Value: 7573.984560. Time Taken: 0.240129s
+  Iteration: 3. Updated Centroids: 14. Obj. Value: 7450.873061. Time Taken: 0.240266s
+  Iteration: 4. Updated Centroids: 14. Obj. Value: 7420.046249. Time Taken: 0.237765s
+  Iteration: 5. Updated Centroids: 13. Obj. Value: 7407.428596. Time Taken: 0.235302s
+  Iteration: 6. Updated Centroids: 11. Obj. Value: 7401.588546. Time Taken: 0.244536s
+  Iteration: 7. Updated Centroids: 10. Obj. Value: 7399.621181. Time Taken: 0.246255s
+  Iteration: 8. Updated Centroids: 8. Obj. Value: 7397.639164. Time Taken: 0.222796s
+  Iteration: 9. Updated Centroids: 7. Obj. Value: 7394.250062. Time Taken: 0.235438s
+  Iteration: 10. Updated Centroids: 5. Obj. Value: 7393.076681. Time Taken: 0.225020s
+  Iteration: 11. Updated Centroids: 4. Obj. Value: 7392.328815. Time Taken: 0.214500s
+  Iteration: 12. Updated Centroids: 2. Obj. Value: 7391.248849. Time Taken: 0.217128s
+  Iteration: 13. Updated Centroids: 4. Obj. Value: 7388.835920. Time Taken: 0.217662s
+  Iteration: 14. Updated Centroids: 4. Obj. Value: 7387.924300. Time Taken: 0.230267s
+  Iteration: 15. Updated Centroids: 2. Obj. Value: 7387.296175. Time Taken: 0.213996s
+  Iteration: 16. Updated Centroids: 3. Obj. Value: 7386.883600. Time Taken: 0.212528s
+  Iteration: 17. Updated Centroids: 2. Obj. Value: 7386.737453. Time Taken: 0.209687s
+  Iteration: 18. Updated Centroids: 2. Obj. Value: 7386.705418. Time Taken: 0.233884s
+  Iteration: 19. Updated Centroids: 0. Obj. Value: 7386.675017. Time Taken: 0.220121s
+Collect clustering solution...
+Clustering completed. Total time taken: 4.425853s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 4.425853s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.194571	0.604184	7386.675017
+      0: 4.045036	0.276817
+      1: 0.409073	0.918033
+      2: 0.000000	1.000000
+      3: 1.298795	0.625000
+      4: 3.084963	0.166667
+      5: 2.047115	0.343750
+      6: 0.022964	0.997758
+      7: 0.000000	1.000000
+      8: 0.547616	0.881533
+      9: 0.000000	1.000000
+     10: 0.491526	0.927152
+     11: 0.000000	1.000000
+     12: 1.966917	0.562500
+     13: 3.580663	0.224490
+     14: 0.000000	1.000000
+     15: 0.000000	1.000000
+     16: 0.000000	1.000000
+     17: 0.321420	0.966611
+     18: 0.000000	1.000000
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	617	 1200	 342	 314	 256	 208	 138	 134	 110	 88	 72	 69	 23	 53	 53	 26	 44	 45	 45	 31	 30	 22	 37	 37	 30	 26	 19	 2	 21	 21	 20	 18	 8	 17	 12	 14	 14	 11	 11	 11	 11	 5	 9	 8	 7	 3	 6	 6	 5	 5	 3	 3	 1	 3	 1	 1	 2	 1	 1	 1	 1	 0	 1	 1	 1	 
+ 1	224	 20	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	350	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	2	 5	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	0	 1	 1	 2	 0	 1	 1	 0	 2	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	1	 5	 5	 0	 0	 0	 0	 0	 0	 11	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 10	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	445	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	490	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	253	 33	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	436	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	15	 280	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 
+11	0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	0	 0	 2	 2	 1	 0	 9	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	3	 0	 0	 14	 2	 1	 0	 1	 2	 0	 25	 2	 44	 1	 0	 22	 0	 0	 0	 11	 0	 19	 1	 0	 0	 0	 5	 21	 0	 0	 0	 0	 10	 0	 1	 1	 0	 0	 0	 0	 0	 5	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	191	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	5	 579	 2	 0	 0	 1	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	505	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	197	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 19/20
+  Random Seed: 37
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8137.047991. Time Taken: 0.251674s
+  Iteration: 2. Updated Centroids: 19. Obj. Value: 7656.161702. Time Taken: 0.251837s
+  Iteration: 3. Updated Centroids: 19. Obj. Value: 7527.449454. Time Taken: 0.248713s
+  Iteration: 4. Updated Centroids: 18. Obj. Value: 7474.980161. Time Taken: 0.243067s
+  Iteration: 5. Updated Centroids: 17. Obj. Value: 7452.163505. Time Taken: 0.242837s
+  Iteration: 6. Updated Centroids: 16. Obj. Value: 7442.296423. Time Taken: 0.242387s
+  Iteration: 7. Updated Centroids: 15. Obj. Value: 7432.148884. Time Taken: 0.235823s
+  Iteration: 8. Updated Centroids: 13. Obj. Value: 7424.923978. Time Taken: 0.232365s
+  Iteration: 9. Updated Centroids: 13. Obj. Value: 7421.085236. Time Taken: 0.237128s
+  Iteration: 10. Updated Centroids: 10. Obj. Value: 7418.064707. Time Taken: 0.225415s
+  Iteration: 11. Updated Centroids: 8. Obj. Value: 7415.059420. Time Taken: 0.221706s
+  Iteration: 12. Updated Centroids: 5. Obj. Value: 7413.792931. Time Taken: 0.231964s
+  Iteration: 13. Updated Centroids: 3. Obj. Value: 7413.499089. Time Taken: 0.218049s
+  Iteration: 14. Updated Centroids: 2. Obj. Value: 7413.428366. Time Taken: 0.213857s
+  Iteration: 15. Updated Centroids: 0. Obj. Value: 7413.393830. Time Taken: 0.203357s
+Collect clustering solution...
+Clustering completed. Total time taken: 3.586292s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 3.586292s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.241867	0.601641	7413.393830
+      0: 3.938118	0.305523
+      1: 1.350040	0.797980
+      2: 0.673171	0.889706
+      3: 0.400037	0.952915
+      4: 2.119263	0.484848
+      5: 2.168403	0.612500
+      6: 0.000000	1.000000
+      7: 3.138138	0.427350
+      8: 0.000000	1.000000
+      9: 0.032139	0.996678
+     10: 0.000000	1.000000
+     11: 1.039838	0.844560
+     12: 3.723397	0.211268
+     13: 0.000000	1.000000
+     14: 3.385943	0.241935
+     15: 0.159350	0.976744
+     16: 2.684173	0.437500
+     17: 0.000000	1.000000
+     18: 1.101674	0.742857
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	633	 1300	 318	 246	 242	 187	 150	 129	 106	 88	 66	 65	 28	 42	 49	 23	 42	 43	 45	 21	 33	 19	 21	 36	 27	 26	 9	 6	 20	 16	 19	 18	 9	 17	 14	 13	 14	 11	 11	 11	 10	 4	 9	 8	 5	 3	 6	 6	 5	 5	 2	 4	 2	 2	 1	 1	 2	 1	 1	 1	 1	 0	 1	 1	 1	 
+ 1	237	 24	 3	 3	 0	 0	 0	 1	 1	 0	 1	 1	 3	 0	 1	 0	 0	 0	 0	 1	 0	 8	 1	 0	 0	 0	 4	 3	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	121	 7	 1	 0	 0	 0	 0	 0	 0	 6	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	5	 425	 4	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 5	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	0	 1	 0	 2	 1	 0	 0	 1	 0	 0	 0	 0	 0	 9	 2	 0	 0	 0	 0	 0	 0	 0	 16	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	4	 6	 1	 49	 7	 2	 0	 0	 4	 0	 2	 2	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 
+ 6	477	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	20	 50	 6	 4	 6	 3	 1	 2	 2	 3	 1	 1	 3	 0	 1	 2	 0	 1	 0	 1	 3	 0	 0	 0	 2	 0	 2	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	300	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	502	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	14	 163	 3	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 1	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 3	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	8	 15	 0	 1	 2	 0	 1	 0	 0	 2	 14	 1	 4	 1	 1	 1	 0	 0	 0	 5	 0	 2	 0	 0	 0	 0	 1	 3	 1	 0	 0	 0	 2	 0	 0	 1	 0	 0	 0	 0	 0	 2	 0	 0	 0	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	538	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	4	 1	 19	 8	 0	 1	 0	 1	 1	 0	 4	 2	 30	 2	 0	 20	 1	 0	 0	 0	 0	 11	 0	 0	 0	 0	 1	 11	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	1	 42	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	56	 12	 0	 19	 0	 0	 0	 1	 0	 0	 9	 1	 0	 1	 0	 1	 1	 0	 0	 14	 0	 1	 0	 1	 0	 0	 7	 0	 0	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	293	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	8	 78	 0	 0	 0	 18	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	513	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
+Parameters:
+  # of Clusters: 20
+  # of Tails: 20/20
+  Random Seed: 39
+  Data File: tokens_extracted/char5.csv
+  Class File: tokens_extracted/reuters21578.class
+  Output File: log/result_20_char5_12-56-16_11-22-2016
+
+Initialize centroids...
+Begin clustering...
+  Iteration: 1. Updated Centroids: 20. Obj. Value: 8197.015624. Time Taken: 0.252923s
+  Iteration: 2. Updated Centroids: 18. Obj. Value: 7690.359745. Time Taken: 0.241756s
+  Iteration: 3. Updated Centroids: 16. Obj. Value: 7593.714001. Time Taken: 0.241812s
+  Iteration: 4. Updated Centroids: 15. Obj. Value: 7543.572351. Time Taken: 0.244363s
+  Iteration: 5. Updated Centroids: 15. Obj. Value: 7521.232344. Time Taken: 0.296429s
+  Iteration: 6. Updated Centroids: 13. Obj. Value: 7513.027418. Time Taken: 0.273250s
+  Iteration: 7. Updated Centroids: 9. Obj. Value: 7508.893980. Time Taken: 0.250893s
+  Iteration: 8. Updated Centroids: 6. Obj. Value: 7504.045392. Time Taken: 0.222832s
+  Iteration: 9. Updated Centroids: 6. Obj. Value: 7499.565657. Time Taken: 0.231955s
+  Iteration: 10. Updated Centroids: 5. Obj. Value: 7496.281877. Time Taken: 0.224880s
+  Iteration: 11. Updated Centroids: 5. Obj. Value: 7495.730962. Time Taken: 0.220218s
+  Iteration: 12. Updated Centroids: 4. Obj. Value: 7495.378932. Time Taken: 0.233032s
+  Iteration: 13. Updated Centroids: 5. Obj. Value: 7495.116821. Time Taken: 0.246557s
+  Iteration: 14. Updated Centroids: 4. Obj. Value: 7494.997390. Time Taken: 0.242048s
+  Iteration: 15. Updated Centroids: 6. Obj. Value: 7493.375933. Time Taken: 0.233390s
+  Iteration: 16. Updated Centroids: 6. Obj. Value: 7489.264493. Time Taken: 0.273999s
+  Iteration: 17. Updated Centroids: 3. Obj. Value: 7485.483884. Time Taken: 0.210989s
+  Iteration: 18. Updated Centroids: 2. Obj. Value: 7485.104422. Time Taken: 0.223249s
+  Iteration: 19. Updated Centroids: 3. Obj. Value: 7485.096384. Time Taken: 0.230367s
+  Iteration: 20. Updated Centroids: 2. Obj. Value: 7485.089993. Time Taken: 0.221123s
+  Iteration: 21. Updated Centroids: 0. Obj. Value: 7485.108375. Time Taken: 0.204891s
+Collect clustering solution...
+Clustering completed. Total time taken: 5.110388s.
+Clustering Analysis:
+# of clusters: 20,	# of data obj.: 8653,	# of dims: 778432,	Time taken: 5.110388s
+
+Cluster	Entropy 	Purity   	Obj. Value
+       	2.365748	0.553912	7485.108375
+      0: 3.823726	0.287892
+      1: 1.613167	0.649123
+      2: 0.249882	0.958333
+      3: 0.809846	0.836257
+      4: 0.000000	1.000000
+      5: 0.652419	0.868132
+      6: 0.014829	0.998649
+      7: 2.321439	0.419355
+      8: 1.385254	0.669811
+      9: 1.570951	0.600000
+     10: 0.000000	1.000000
+     11: 3.934695	0.156780
+     12: 0.520149	0.941057
+     13: 0.000000	1.000000
+     14: 3.100427	0.321429
+     15: 0.782440	0.859649
+     16: 0.000000	1.000000
+     17: 0.000000	1.000000
+     18: 0.719822	0.873239
+     19: 0.000000	1.000000
+
+Clustering matrix:
+Cluster	earn	acq	crude	trade	money-fx	interest	ship	sugar	coffee	gold	money-supply	gnp	cpi	cocoa	copper	jobs	iron-steel	alum	grain	reserves	nat-gas	ipi	rubber	veg-oil	tin	cotton	bop	wpi	gas	pet-chem	livestock	strategic-metal	retail	orange	zinc	housing	heat	lumber	silver	carcass	fuel	lei	oilseed	lead	meal-feed	income	tea	yen	potato	instal-debt	jet	nickel	platinum	dlr	cpu	inventories	groundnut	naphtha	rand	wool	l-cattle	coconut	hog	rice	propane	
+ 0	1013	 1360	 311	 289	 186	 190	 149	 133	 111	 86	 49	 59	 34	 51	 53	 26	 43	 45	 45	 27	 39	 22	 38	 36	 30	 26	 8	 11	 21	 18	 19	 16	 7	 11	 15	 13	 14	 11	 11	 11	 11	 6	 9	 8	 6	 3	 6	 6	 5	 3	 3	 4	 2	 3	 1	 1	 2	 1	 1	 1	 1	 1	 1	 1	 1	 
+ 1	37	 12	 1	 3	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 2	0	 0	 23	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 3	143	 22	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 4	346	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 5	237	 31	 0	 0	 0	 0	 0	 0	 0	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 6	739	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 7	6	 13	 2	 0	 4	 0	 0	 0	 1	 4	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 8	83	 213	 1	 5	 0	 0	 0	 0	 0	 2	 0	 3	 0	 2	 0	 1	 2	 0	 0	 0	 0	 2	 0	 0	 0	 0	 1	 0	 0	 0	 0	 1	 2	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+ 9	1	 0	 0	 0	 0	 6	 0	 0	 0	 0	 2	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+10	244	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+11	7	 3	 2	 28	 5	 3	 0	 1	 2	 0	 37	 6	 34	 2	 0	 21	 0	 0	 0	 15	 0	 17	 0	 0	 0	 0	 13	 12	 0	 0	 0	 1	 8	 7	 0	 2	 0	 0	 0	 0	 0	 4	 0	 0	 0	 2	 0	 0	 0	 2	 0	 0	 0	 0	 1	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+12	8	 463	 4	 0	 0	 1	 4	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 2	 0	 1	 0	 0	 0	 0	 0	 1	 2	 1	 1	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+13	244	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+14	18	 3	 8	 4	 2	 4	 3	 1	 0	 3	 6	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+15	49	 4	 3	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+16	1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+17	301	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+18	0	 0	 0	 0	 62	 5	 0	 0	 0	 0	 3	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+19	257	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 
+
